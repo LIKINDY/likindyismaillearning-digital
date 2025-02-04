@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - Likindy Digital E-learning</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favi.png">
+    <style>
+        body {
+            background-color: aliceblue;
+        }
+        
+        footer {
+            background-color: brown;
+            color: #efe4e4;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="logo.jpg" alt="Likindy Logo" style="width: 30px; height: 30px;">
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.htm"><img src="home.png" alt="Home Icon"> Home</a>
+                </li>
+                <li>
+                    <a href="about.html"><img src="about.png" alt="About Icon"> About Us</a>
+                </li>
+                <li>
+                    <a href="courses.html"><img src="algo.png" alt="Courses Icon"> Courses</a>
+                </li>
+                <li>
+                    <a href="team.html"><img src="team.png" alt="Team Icon"> Team</a>
+                </li>
+                <li>
+                    <a href="contact.html"><img src="projects.png" alt="Contact Icon"> Contact</a>
+                </li>
+                <li>
+                    <a href="help.html"><img src="help.png" alt="Help Icon"> Help</a>
+                </li>
+                <li>
+                    <a href="lookon.htm"><img src="books.png" alt="Help Icon"> Resources</a>
+                </li>
+                <li><a href="registration.php">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Let's Study Now!</h1>
+
+        <h2>Beginner Courses</h2>
+        <div class="course-container">
+            <div class="course-card">
+                <img src="python-course.png" alt="Python">
+                <h3>Python</h3>
+                <p>Learn the fundamentals of Python programming.</p>
+                <form action="process_course.php" method="post">
+                    <input type="hidden" name="subject_id" value="1">
+                    <input type="hidden" name="subject_name" value="Python">
+                    <input type="hidden" name="instructor" value="John">
+                    <input type="submit" value="Enroll Now">
+                </form>
+            </div>
+            <div class="course-card">
+                <img src="online-tutorials.png" alt="HTML">
+                <h3>HTML</h3>
+                <p>Master the basics of HTML for web development.</p>
+                <form action="process_course.php" method="post">
+                    <input type="hidden" name="subject_id" value="2">
+                    <input type="hidden" name="subject_name" value="HTML">
+                    <input type="hidden" name="instructor" value="Smith">
+                    <input type="submit" value="Enroll Now">
+                </form>
+            </div>
+            <div class="course-card">
+                <img src="java-course.jpg" alt="JavaScript">
+                <h3>JavaScript</h3>
+                <p>Learn to add interactivity to your websites with JavaScript.</p>
+                <form action="process_course.php" method="post">
+                    <input type="hidden" name="subject_id" value="3">
+                    <input type="hidden" name="subject_name" value="JavaScript">
+                    <input type="hidden" name="instructor" value="makame">
+                    <input type="submit" value="Enroll Now">
+                </form>
+            </div>
+        </div>
+
+        <h2>Advanced Courses</h2>
+        <div class="course-container">
+            <div class="course-card">
+                <img src="c-course.jpg" alt="C Programming">
+                <h3>C Programming</h3>
+                <p>Learn the foundations of programming with the C language.</p>
+                <form action="process_course.php" method="post">
+                    <input type="hidden" name="subject_id" value="4">
+                    <input type="hidden" name="subject_name" value="C Programming">
+                    <input type="hidden" name="instructor" value="Sara maulid">
+                    <input type="submit" value="Enroll Now">
+                </form>
+            </div>
+            <div class="course-card">
+                <img src="computer-courses.png" alt="C#">
+                <h3>C#</h3>
+                <p>Explore C# for game development and more.</p>
+                <form action="process_course.php" method="post">
+                    <input type="hidden" name="subject_id" value="5">
+                    <input type="hidden" name="subject_name" value="C#">
+                    <input type="hidden" name="instructor" value="Michael Brown">
+                    <input type="submit" value="Enroll Now">
+                </form>
+            </div>
+            <div class="course-card">
+                <img src="database.jpg" alt="Database">
+                <h3>Database</h3>
+                <p>Learn the foundations of database via SQL and phpMyAdmin.</p>
+                <form action="process_course.php" method="post">
+                    <input type="hidden" name="subject_id" value="6">
+                    <input type="hidden" name="subject_name" value="Database">
+                    <input type="hidden" name="instructor" value="mohamed">
+                    <input type="submit" value="Enroll Now">
+                </form>
+            </div>
+            <div class="course-card">
+                <img src="math.jpg" alt="Mathematics">
+                <h3>Mathematics</h3>
+                <p>Learn the foundations of mathematics and calculation.</p>
+                <form action="process_course.php" method="post">
+                    <input type="hidden" name="subject_id" value="7">
+                    <input type="hidden" name="subject_name" value="Mathematics">
+                    <input type="hidden" name="instructor" value="ismail mohammed">
+                    <input type="submit" value="Enroll Now">
+                </form>
+            </div>
+            <div class="course-card">
+                <img src="physics.jpg" alt="Physics">
+                <h3>Physics</h3>
+                <p>Learn the foundations of physics concepts.</p>
+                <form action="process_course.php" method="post">
+                    <input type="hidden" name="subject_id" value="8">
+                    <input type="hidden" name="subject_name" value="Physics">
+                    <input type="hidden" name="instructor" value="omar Wilson">
+                    <input type="submit" value="Enroll Now">
+                </form>
+            </div>
+            <div class="course-card">
+                <img src="sta-je-css.png" alt="CSS">
+                <h3>CSS</h3>
+                <p>Learn the foundations of programming with the CSS language.</p>
+                <form action="process_course.php" method="post">
+                    <input type="hidden" name="subject_id" value="9">
+                    <input type="hidden" name="subject_name" value="CSS">
+                    <input type="hidden" name="instructor" value="Abdul">
+                    <input type="submit" value="Enroll Now">
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; All rights reserved by Likindy 2024 Digital.</p>
+        <p><img src="location (1).png">Location: Street Road 234 Bububu, Kijichi</p>
+        <p><img src="mail.png">Email: likindyismail@gmail.com</p>
+        <p><img src="call.png">Phone: +255 658 415 488</p>
+    </footer>
+
+</body>
+
+</html>
